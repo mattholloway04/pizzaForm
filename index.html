@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order a Pizza</title>
+    <style>
+      fieldset {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset style="width: 500px">
+      <legend>User Information</legend>
+      <ul>
+        <li>
+          <label name="username"> User Name: </label
+          ><input type="text" name="username" id="username" />
+        </li>
+        <li>
+          <label name="password"> Password: </label
+          ><input type="password" name="pass" id="pass" />
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset style="width: 500px">
+      <legend>What drink do you want?</legend>
+      <ul>
+        <li>
+          <label name="drink"
+            ><input type="radio" name="drink" id="coke" /> Coke</label
+          >
+        </li>
+        <li>
+          <label name="drink"
+            ><input type="radio" name="drink" id="dietcoke" /> Diet Coke</label
+          >
+        </li>
+        <li>
+          <label name="drink"
+            ><input type="radio" name="drink" id="sprite" /> Sprite</label
+          >
+        </li>
+        <li>
+          <label name="drink"
+            ><input type="radio" name="drink" id="water" /> Water</label
+          >
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset style="width: 500px">
+      <legend>Pizza Preference</legend>
+      <ul>
+        <li>
+          <label name="plain"
+            ><input type="checkbox" name="plain" id="plain" /> Plain</label
+          >
+        </li>
+        <li>
+          <label name="pep"
+            ><input type="checkbox" name="pep" id="pep" /> Pepperoni</label
+          >
+        </li>
+        <li>
+          <label name="chicken"
+            ><input type="checkbox" name="chicken" id="chicken" />
+            Chicken</label
+          >
+        </li>
+        <li>
+          <label name="sausage"
+            ><input type="checkbox" name="sausage" id="sausage" />
+            Sausage</label
+          >
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset style="width: 500px">
+      <legend>Special Instructions</legend>
+      <ul>
+        <li>
+          <label name="special"> Special Instructions:</label>
+          <br />
+          <textarea name="special" id="special" cols="23" rows="8"></textarea>
+        </li>
+      </ul>
+      <button>Submit</button>
+    </fieldset>
+  </body>
+</html>
